@@ -14,6 +14,7 @@ main = do
     print $ duplicateCount "Indivisibilities" == 2 -- 'i' occurs seven times and 's' occurs twice
     print $ duplicateCount ['a'..'z'] == 0
     print $ duplicateCount (['a'..'z'] ++ ['A'..'Z']) == 26
+    print $ duplicateCount "zzzzzzrereaagazzzaaaag" == 5 --myTest
 
 
 duplicateCount :: String -> Int

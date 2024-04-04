@@ -6,6 +6,7 @@ main = do
     print $ sumUnique [[1,2,3,2],[-4,-4],[5]]  == 9 -- (= 1 + 3 + 5)
     print $ sumUnique [[2,2,2],[3,3,3],[4,4,4]] == 0
     print $ sumUnique [[1,2,3],[4,5,6],[7,8,9]] == 45
+    print $ sumUnique [[4,5,6], [1], [7,6,7,7,7,4]] == 26 --myTest
 
 
 
